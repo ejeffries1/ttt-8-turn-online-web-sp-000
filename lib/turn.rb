@@ -37,5 +37,5 @@ def turn(board)
   else
     turn(board)
   end
-  puts board
+  print board
 end
