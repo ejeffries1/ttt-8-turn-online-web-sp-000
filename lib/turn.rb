@@ -22,9 +22,8 @@ def valid_move?(board, index)
   end
 end
 
-def move(board, index, token)
+def move(board, index, token = "X")
   board[index] = token
-  token = "X" || "O"
 end
 
 def turn(board)
