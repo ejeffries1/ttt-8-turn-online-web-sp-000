@@ -23,7 +23,8 @@ def valid_move?(board, index)
 end
 
 def move(board, index, token)
-  token = "X"
+  token = "X" unless token = "O"
+  end
   board[index] = token
 end
 
